@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Moda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>KLIN KLIN KLIN</h1>
+    </header>
+    <main>
+        <section class="products">
+            <div class="product" data-price="200">
+                <img src="https://www.fashionnova.com/cdn/shop/files/05-03-24_S2_26_24GWQ3227AB_Blackcombo_ID_SS_10-47-21_20631_PXF_468x.jpg?v=1715108603" alt="Producto 1">
+                <h2>Conjunto Mesh</h2>
+                <p>USD 200</p>
+                <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+            <div class="product" data-price="250">
+                <img src="https://www.fashionnova.com/cdn/shop/files/10-17-23studio6_HY_PC_10-59-29_12_SET1991_Black_47581_PXF_468x.jpg?v=1698167930" alt="Producto 2">
+                <h2>Set Negro</h2>
+                <p>USD 250</p>
+                <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+            <div class="product" data-price="220">
+                <img src="https://www.fashionnova.com/cdn/shop/files/04-29-24_S8_67_ST22993_BlackWhite_ID_PC_15-23-02_74265_PXF_468x.jpg?v=1714509500" alt="Producto 3">
+                <h2>Conjunto Fresa</h2>
+                <p>USD 220</p>
+                <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+            <div class="product" data-price="300">
+                <img src="https://www.fashionnova.com/cdn/shop/files/05-06-24_S5_37_KJGM4011114_Orange_KT_AA_14-22-56_2753_PXF_468x.jpg?v=1715182379" alt="Producto 4">
+                <h2>Conjunto Tarde</h2>
+                <p>USD 300</p>
+                <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+            <div class="product" data-price="275">
+                <img src="https://www.fashionnova.com/cdn/shop/files/04-29-24_S2_9_BT5913SET_Blue_CXB_RL_12-00-25_18091_PXF_468x.jpg?v=1714497888" alt="Producto 5">
+                <h2>Set Mar</h2>
+                <p>USD 275</p>
+                <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+            <div class="product" data-price="230">
+                <img src="https://www.fashionnova.com/cdn/shop/files/04-30-24_S8_38_KDJD3102906_Mocha_ID_PC_13-42-27_74758_PXF_468x.jpg?v=1715107520" alt="Producto 6">
+                <h2>Set Desierto</h2>
+                <p>USD 230</p>
+                <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+            <div class="product" data-price="210">
+                <img src="https://www.fashionnova.com/cdn/shop/files/05-07-24_S1_14_FN23121802SET_Blackcombo_HY_SS_13-14-51_70222_PXF_468x.jpg?v=1715210249" alt="Producto 7">
+                <h2>Conjunto Gold</h2>
+                <p>USD 210</p>
+                <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+            <div class="product" data-price="260">
+                <img src="https://www.fashionnova.com/cdn/shop/files/01-18-24_S1_1_ST1981_Cream_P_KT_AS_10-06-31_3574_PXF_EH_468x.jpg?v=1706287711" alt="Producto 8">
+                <h2>Set Camel</h2>
+                <p>USD 260</p>
+                <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+            <div class="product" data-price="240">
+                <img src="https://www.fashionnova.com/cdn/shop/files/10-25-23Studio2_KJ_RL_13-27-45_21_23KS01F_Browncombo_P_67896_CM_468x.jpg?v=1698786644" alt="Producto 9">
+                <h2>Set Prio</h2>
+                <p>USD 240</p>
+                <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+            <div class="product" data-price="290">
+                <img src="https://www.fashionnova.com/cdn/shop/files/03-15-24_S2_41_ES3729N_Blackcombo_KJ_RL_14-49-44_7753_PXF_468x.jpg?v=1711132535" alt="Producto 10">
+                <h2>Trueno</h2>
+                <p>USD 290</p>
+                <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+            <div class="product" data-price="220">
+                <img src="https://www.fashionnova.com/cdn/shop/files/05-08-24_S4_39_JST65336TPA_GreenCombo_KT_PC_13-59-27_2806_PXF_468x.jpg?v=1715364102" alt="Producto 11">
+                <h2>Set Karozzi</h2>
+                <p>USD 220</p>
+                <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+            <div class="product" data-price="250">
+                <img src="https://www.fashionnova.com/cdn/shop/files/04-19-24_S2_14_KCSM3103001_Black_P_KJ_RL_14-51-45_16540_CM_468x.jpg?v=1714586974" alt="Producto 12">
+                <h2>Conjunto Jaguar</h2>
+                <p>USD 250</p>
+                <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+        </section>
+    </main>
+    <aside>
+        <h2>Carrito</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: USD <span id="total-price">0</span></p>
+        <button id="empty-cart">Vaciar carrito</button>
+        <button id="checkout">Pagar</button>
+    </aside>
+    <footer>
+        <h2>Suscripción</h2>
+        <form id="subscription-form">
+            <input type="text" id="name" placeholder="Nombre" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <button type="submit">Suscribirse</button>
+        </form>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
