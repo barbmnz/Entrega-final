@@ -8,9 +8,18 @@ document.addEventListener('DOMContentLoaded', () => {
             const product = button.closest('.product');
             const price = parseInt(product.dataset.price);
             const name = product.querySelector('h2').textContent;
+            const img = product.querySelector('img').src;
 
             cart.push({ name, price });
             updateCart();
+            Swal.fire({
+                title: "Genial",
+                text: `Agregaste: ${name} al carrito`,
+                imageUrl: img,
+                imageWidth: 200,
+                imageHeight: 200,
+                imageAlt: "Imagen del producto"
+            });
         });
     });
 
