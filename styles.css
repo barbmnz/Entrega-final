@@ -1,8 +1,8 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fffbd1;
+    background-color: #f5efb1;
     color: #142107;
 }
 
@@ -29,8 +29,8 @@ main {
 }
 
 .product {
-    background-color: white;
-    border: 1px solid #142107;
+    background-color: rgb(241, 244, 190);
+    border: 1px solid rgb(241, 200, 190);
     padding: 1rem;
     text-align: center;
 }
@@ -41,7 +41,8 @@ main {
 }
 
 .add-to-cart {
-    background-color: #ff6e19;
+    background-color: #8432d6;
+    border-radius: 4px;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -53,7 +54,7 @@ aside {
     right: 0;
     top: 0;
     width: 20%;
-    background-color: #fff050;
+    background-color: #9589ff;
     padding: 1rem;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
 }
@@ -74,7 +75,8 @@ aside h2, footer h2 {
 }
 
 #cart-items button {
-    background-color: #ff6e19;
+    background-color: #8432d6;
+    border-radius: 4px;
     color: white;
     border: none;
     cursor: pointer;
@@ -101,9 +103,10 @@ footer form input {
 }
 
 footer form button {
-    background-color: #ff6e19;
-    color: white;
+    background-color: #8432d6;
+    color: rgb(255, 255, 255);
     border: none;
+    border-radius: 4px;
     padding: 0.5rem 1rem;
     cursor: pointer;
 }
