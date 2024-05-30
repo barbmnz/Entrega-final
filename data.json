@@ -1,0 +1,16 @@
+{
+  "products": [
+      { "name": "Conjunto Mesh", "price": 200, "image": "https://www.fashionnova.com/cdn/shop/files/05-03-24_S2_26_24GWQ3227AB_Blackcombo_ID_SS_10-47-21_20631_PXF_468x.jpg?v=1715108603" },
+      { "name": "Set Negro", "price": 250, "image": "https://www.fashionnova.com/cdn/shop/files/10-17-23studio6_HY_PC_10-59-29_12_SET1991_Black_47581_PXF_468x.jpg?v=1698167930" },
+      { "name": "Conjunto Fresa", "price": 220, "image": "https://www.fashionnova.com/cdn/shop/files/04-29-24_S8_67_ST22993_BlackWhite_ID_PC_15-23-02_74265_PXF_468x.jpg?v=1714509500" },
+      { "name": "Conjunto Tarde", "price": 300, "image": "https://www.fashionnova.com/cdn/shop/files/05-06-24_S5_37_KJGM4011114_Orange_KT_AA_14-22-56_2753_PXF_468x.jpg?v=1715182379" },
+      { "name": "Set Mar", "price": 275, "image": "https://www.fashionnova.com/cdn/shop/files/04-29-24_S2_9_BT5913SET_Blue_CXB_RL_12-00-25_18091_PXF_468x.jpg?v=1714497888" },
+      { "name": "Set Desierto", "price": 230, "image": "https://www.fashionnova.com/cdn/shop/files/04-30-24_S8_38_KDJD3102906_Mocha_ID_PC_13-42-27_74758_PXF_468x.jpg?v=1715107520" },
+      { "name": "Conjunto Gold", "price": 210, "image": "https://www.fashionnova.com/cdn/shop/files/05-07-24_S1_14_FN23121802SET_Blackcombo_HY_SS_13-14-51_70222_PXF_468x.jpg?v=1715210249" },
+      { "name": "Set Camel", "price": 260, "image": "https://www.fashionnova.com/cdn/shop/files/01-18-24_S1_1_ST1981_Cream_P_KT_AS_10-06-31_3574_PXF_EH_468x.jpg?v=1706287711" },
+      { "name": "Set Prio", "price": 240, "image": "https://www.fashionnova.com/cdn/shop/files/10-25-23Studio2_KJ_RL_13-27-45_21_23KS01F_Browncombo_P_67896_CM_468x.jpg?v=1698786644" },
+      { "name": "Conjunto Amir", "price": 290, "image": "https://www.fashionnova.com/cdn/shop/files/12-28-23_S1_10_DXS233450K_Black_CB_PC_10-20-03_4957_PXF_468x.jpg?v=1704481909" },
+      { "name": "Trueno", "price": 220, "image": "https://www.fashionnova.com/cdn/shop/files/03-15-24_S2_41_ES3729N_Blackcombo_KJ_RL_14-49-44_7753_PXF_468x.jpg?v=1711132535" },
+      { "name": "Conjunto Jaguar", "price": 250, "image": "https://www.fashionnova.com/cdn/shop/files/04-19-24_S2_14_KCSM3103001_Black_P_KJ_RL_14-51-45_16540_CM_468x.jpg?v=1714586974" }
+  ]
+}
