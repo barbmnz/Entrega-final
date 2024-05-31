@@ -25,7 +25,7 @@ main {
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
     width: 80%;
-    margin-bottom: 2rem; /* Add bottom margin to ensure space for the footer */
+    margin-bottom: 2rem; 
 }
 
 .product {
@@ -54,30 +54,54 @@ aside {
     right: 0;
     top: 0;
     width: 20%;
-    background-color: #9589ff;
+    background-color: transparent #0f5a1b ;
     padding: 1rem;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
 }
 
 aside h2, footer h2 {
     margin-top: 0;
+    border-radius: 8px;
+}
+
+#empty-cart {
+    background-color: #0f5a1b;
+    border-radius: 8px;
+    color: rgb(241, 244, 190);
+    border: none;
+    cursor: pointer;
+
+
+}
+
+#checkout {
+    background-color: #0f5a1b;
+    border-radius: 8px;
+    color: rgb(241, 244, 190);
+    border: none;
+    cursor: pointer;
 }
 
 #cart-items {
     list-style: none;
+    border-radius: 9px;
     padding: 0;
+    border-radius: 8px;
 }
 
 #cart-items li {
     display: flex;
+    border-radius: 9px;
     justify-content: space-between;
     margin-bottom: 0.5rem;
 }
 
 #cart-items button {
-    background-color: #8432d6;
-    border-radius: 4px;
-    color: white;
+    background-color: #0f5a1b;
+    border-radius: 8px;
+    color: rgb(241, 244, 190);
     border: none;
     cursor: pointer;
 }
@@ -87,9 +111,9 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem;
-    position: relative; /* Change to relative */
+    position: relative; 
     width: 100%;
-    margin-top: 2rem; /* Add top margin to ensure space for the footer */
+    margin-top: 2rem;
 }
 
 footer form {
@@ -106,7 +130,7 @@ footer form button {
     background-color: #8432d6;
     color: rgb(255, 255, 255);
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     padding: 0.5rem 1rem;
     cursor: pointer;
 }
