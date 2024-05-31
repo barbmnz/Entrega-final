@@ -26,17 +26,26 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('empty-cart').addEventListener('click', () => {
         cart.length = 0;
         updateCart();
+        Swal.fire({
+            title: "Hemos vaciado tu carrito🛒",
+        });
     });
 
     document.getElementById('checkout').addEventListener('click', () => {
-        alert('Su pedido ha sido procesado');
         cart.length = 0;
         updateCart();
+        Swal.fire({
+            title: "Genial✨",
+            text: `El pago se ha procesado con exito.`,
+        });
     });
 
     document.getElementById('subscription-form').addEventListener('submit', event => {
         event.preventDefault();
-        alert('Se ha suscrito exitosamente y puede seguir navegando en la página.');
+        Swal.fire({
+            title: "Se ha suscrito exitosamente✨",
+            text: `Puedes seguir navegando en la página`,
+        });
         event.target.reset();
     });
 
@@ -59,4 +68,3 @@ document.addEventListener('DOMContentLoaded', () => {
         totalPrice.textContent = total;
     }
 });
-
